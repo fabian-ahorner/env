@@ -1,10 +1,18 @@
 brew 'zsh'
 brew 'npm'
+brew 'nvm'
 brew 'chruby'
 brew 'ruby-install'
 brew 'awscli'
+brew 'kubernetes-cli'
 
+# Docker desktop replacement
+brew 'colima'
+brew 'docker'
+brew 'docker-compose'
 
+tap 'heroku/brew'
+brew 'heroku'
 
 cask 'firefox'
 cask 'iterm2'
@@ -14,3 +22,4 @@ cask 'spotify'
 cask 'microsoft-teams'
 cask 'microsoft-excel'
 cask 'postman'
+cask 'logi-options-plus'
